@@ -255,6 +255,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/basswala/anime-recommender-llmops/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/basswala/anime-recommender-llmops/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Basswala/ANIME-RECOMMENDER-SYSTEM-LLMOPS/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Basswala/ANIME-RECOMMENDER-SYSTEM-LLMOPS/discussions)
+- **Documentation**: [Wiki](https://github.com/Basswala/ANIME-RECOMMENDER-SYSTEM-LLMOPS/wiki)
 
+---
+
+**Built with ❤️ for the anime community**
