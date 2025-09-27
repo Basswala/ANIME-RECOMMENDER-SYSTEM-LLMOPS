@@ -23,5 +23,9 @@ RUN pip install --no-cache-dir -e .
 # Used PORTS
 EXPOSE 8501
 
-# Run the app 
+# Health check to ensure the app is running
+HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+    CMD curl -f http://localhost:8501/_stcore/health || exit 1
+
+# Run the app
 CMD ["streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0","--server.headless=true"]
